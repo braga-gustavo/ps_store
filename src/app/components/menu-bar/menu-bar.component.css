@@ -1,3 +1,45 @@
-h1{
-	color: white;
+.container-menu-bar {
+	display: flex;
+	flex-direction: row;
+	position: fixed;
+	z-index: 999;
+	background-color: #ffff;
+	width: 100%;
+	height: 40px;
+}
+
+.logo-menu-bar {
+	margin-left: 30px;
+	display: flex;
+	align-items: center;
+
+}
+
+.item-menu-bar {
+	display: flex;
+	margin: auto;
+	align-items: center;
+}
+
+.item-menu-bar>ul {
+	display: flex;
+	list-style-type: none;
+
+}
+
+.item-menu-bar>ul>li {
+	padding: 5px;
+	margin-right: 15px;
+}
+
+.item-menu-bar>ul>li>a {
+	text-decoration: none;
+	padding: 5px;
+	color: rgb(7, 7, 7);
+	font-family: 'Segoe UI';
+}
+
+.item-menu-bar>ul>li>a:hover {
+	color:blue;
+	font-weight: 600;
 }
